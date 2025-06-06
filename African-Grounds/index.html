@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Africa Ground | Experience Africa Through Our Lens</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- follow up Custom Cursor -->
+    <div class="custom-cursor hidden md:block"></div>
+    
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="/AG/index.html" class="text-2xl font-bold text-amber-800 flex items-center">
+                        <i class="fas fa-mountain-sun mr-2"></i>
+                        Africa Ground
+                    </a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-8">
+                        <a href="#" class="text-amber-900 font-medium hover:text-amber-700 transition">Home</a>
+                        <a href="#videos" class="text-gray-700 hover:text-amber-700 transition">Videos</a>
+                        <a href="#about" class="text-gray-700 hover:text-amber-700 transition">About</a>
+                        <a href="#contact" class="text-gray-700 hover:text-amber-700 transition">Contact</a>
+                        <a href="https://www.youtube.com/" target="_blank" class="bg-amber-700 text-white px-4 py-2 rounded-full hover:bg-amber-800 transition flex items-center">
+                            <i class="fab fa-youtube mr-2"></i> Our Channel
+                        </a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button p-2 rounded-md text-gray-700 hover:text-amber-700 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden md:hidden bg-white shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-amber-900">Home</a>
+                <a href="#videos" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-amber-700">Videos</a>
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-amber-700">About</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-amber-700">Contact</a>
+                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium bg-amber-700 text-white hover:bg-amber-800">
+                    <i class="fab fa-youtube mr-2"></i> Our Channel
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-bg">
+        <video autoplay muted loop class="hero-video">
+        <source src="./Giraffe group.mp4" type="video/mp4">
+    </video>
+        <div class="hero-overlay absolute inset-0 bg-black/50"></div>
+        
+        <div class="hero-content h-full flex items-center justify-center text-center px-4">
+            <div class="max-w-4xl mx-auto text-white fade-in">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 slide-up">Experience Africa Through Our Lens</h1>
+                <p class="text-xl md:text-2xl mb-10 slide-up delay-100">Discover the breathtaking beauty, rich history, and vibrant cultures of Africa's most incredible destinations.</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4 slide-up delay-200">
+                    <a href="#videos" class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+                        Explore Videos
+                    </a>
+                    <a href="#about" class="bg-transparent hover:bg-white/20 border-2 border-white text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+                        Learn About Us
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-10 left-0 right-0 flex justify-center z-10 slide-up delay-300">
+            <a href="#intro" class="text-white animate-bounce">
+                <i class="fas fa-chevron-down text-3xl"></i>
+            </a>
+        </div>
+    </section>
+    
+    <!-- Introduction Section -->
+    <section id="intro" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-amber-900 mb-4">Our Mission</h2>
+                <div class="w-24 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="slide-up delay-100">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Bringing Africa's Wonders to the World</h3>
+                    <p class="text-gray-600 mb-4">At Africa Ground, we're passionate about showcasing the diverse beauty of the African continent. From ancient historical sites to stunning natural landscapes, we capture high-quality video content that tells the story of Africa's rich heritage.</p>
+                    <p class="text-gray-600 mb-6">Our team travels across the continent, documenting both famous landmarks and hidden gems, ensuring these treasures are preserved and shared with audiences worldwide.</p>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">Documentary</span>
+                        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">Travel</span>
+                        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">History</span>
+                        <span class="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm">Culture</span>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden shadow-xl slide-up delay-200">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Africa_%28orthographic_projection%29.svg" alt="African landscape" class="w-full h-auto">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+                        <div>
+                            <h4 class="text-white text-xl font-semibold">Africa continent</h4>
+                            <p class="text-amber-200">vibrant cultures, stunning landscapes, and untold stories.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Video Gallery Section -->
+    <section id="videos" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-amber-900 mb-4">Explore Our Videos</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Discover Africa's most incredible destinations through our carefully curated video collection.</p>
+                <div class="w-24 h-1 bg-amber-600 mx-auto mt-4"></div>
+            </div>
+            
+            <!-- Country Filters -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12 slide-up delay-100">
+                <button class="country-filter px-4 py-2 rounded-full bg-white shadow-sm hover:shadow-md transition flex items-center">
+                    <img src="https://flagcdn.com/w20/ke.png" class="country-flag w-6 h-6 rounded-full mr-2">
+                    <span>Kenya</span>
+                </button>
+                <button class="country-filter px-4 py-2 rounded-full bg-white shadow-sm hover:shadow-md transition flex items-center">
+                    <img src="https://flagcdn.com/w20/za.png" class="country-flag w-6 h-6 rounded-full mr-2">
+                    <span>South Africa</span>
+                </button>
+                <button class="country-filter px-4 py-2 rounded-full bg-white shadow-sm hover:shadow-md transition flex items-center">
+                    <img src="https://flagcdn.com/w20/eg.png" class="country-flag w-6 h-6 rounded-full mr-2">
+                    <span>Egypt</span>
+                </button>
+                <button class="country-filter px-4 py-2 rounded-full bg-white shadow-sm hover:shadow-md transition flex items-center">
+                    <img src="https://flagpedia.net/data/flags/w580/ng.webp" class="country-flag w-6 h-6 rounded-full mr-2">
+                    <span>Nigeria</span>
+                </button>
+                <button class="country-filter px-4 py-2 rounded-full bg-white shadow-sm hover:shadow-md transition flex items-center">
+                    <img src="https://flagcdn.com/w20/tz.png" class="country-flag w-6 h-6 rounded-full mr-2">
+                    <span>Tanzania</span>
+                </button>
+                <button class="country-filter px-4 py-2 rounded-full bg-white shadow-sm hover:shadow-md transition flex items-center">
+                    <img src="https://flagcdn.com/w20/et.png" class="country-flag w-6 h-6 rounded-full mr-2">
+                    <span>Ethiopia</span>
+                </button>
+                <button class="country-filter px-4 py-2 rounded-full bg-white shadow-sm hover:shadow-md transition">
+                    <span>View All</span>
+                </button>
+            </div>
+            
+            <!-- Video Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 slide-up delay-200">
+                <!-- Video Card 1 -->
+                <div class="video-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer">
+                    <div class="relative pt-[56.25%] overflow-hidden">
+                        <img src="https://www.volcanoesparkrwanda.org/wp-content/uploads/2024/08/645e7ad063e1be0712861f96_7-days.jpg" alt="Video thumbnail" class="absolute top-0 left-0 w-full h-full object-cover">
+                        <div class="video-overlay absolute inset-0 bg-black/40 flex items-center justify-center">
+                            <div class="bg-amber-600 hover:bg-amber-700 w-16 h-16 rounded-full flex items-center justify-center transition transform hover:scale-110">
+                                <i class="fas fa-play text-white text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">The Great Migration in Maasai Mara</h3>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <img src="https://flagcdn.com/w20/ke.png" class="w-4 h-4 rounded-full mr-1">
+                            <span class="mr-3">Kenya</span>
+                            <i class="far fa-clock mr-1"></i>
+                            <span>12:45</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Card 2 -->
+                <div class="video-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer">
+                    <div class="relative pt-[56.25%] overflow-hidden">
+                        <img src="https://www.thetimes.com/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F99fb9468-4b44-406d-a4c2-5646791b6367.jpg?crop=1350%2C900%2C125%2C0" alt="Video thumbnail" class="absolute top-0 left-0 w-full h-full object-cover">
+                        <div class="video-overlay absolute inset-0 bg-black/40 flex items-center justify-center">
+                            <div class="bg-amber-600 hover:bg-amber-700 w-16 h-16 rounded-full flex items-center justify-center transition transform hover:scale-110">
+                                <i class="fas fa-play text-white text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Exploring the Pyramids of Giza</h3>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <img src="https://flagcdn.com/w20/eg.png" class="w-4 h-4 rounded-full mr-1">
+                            <span class="mr-3">Egypt</span>
+                            <i class="far fa-clock mr-1"></i>
+                            <span>18:22</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Card 3 -->
+                <div class="video-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer">
+                    <div class="relative pt-[56.25%] overflow-hidden">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/TableMountainAerialCableway2018.jpg/1200px-TableMountainAerialCableway2018.jpg" alt="Video thumbnail" class="absolute top-0 left-0 w-full h-full object-cover">
+                        <div class="video-overlay absolute inset-0 bg-black/40 flex items-center justify-center">
+                            <div class="bg-amber-600 hover:bg-amber-700 w-16 h-16 rounded-full flex items-center justify-center transition transform hover:scale-110">
+                                <i class="fas fa-play text-white text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Table Mountain & Cape Town</h3>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <img src="https://flagcdn.com/w20/za.png" class="w-4 h-4 rounded-full mr-1">
+                            <span class="mr-3">South Africa</span>
+                            <i class="far fa-clock mr-1"></i>
+                            <span>15:30</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Card 4 -->
+                <div class="video-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer">
+                    <div class="relative pt-[56.25%] overflow-hidden">
+                        <img src="https://cdn.guardian.ng/wp-content/uploads/2017/08/Olumo-rock-Abeokuta-e1502700423422.jpg" alt="Video thumbnail" class="absolute top-0 left-0 w-full h-full object-cover">
+                        <div class="video-overlay absolute inset-0 bg-black/40 flex items-center justify-center">
+                            <div class="bg-amber-600 hover:bg-amber-700 w-16 h-16 rounded-full flex items-center justify-center transition transform hover:scale-110">
+                                <i class="fas fa-play text-white text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">The Sahara Desert Adventure</h3>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <img src="https://flagpedia.net/data/flags/w580/ng.webp" class="w-4 h-4 rounded-full mr-1">
+                            <span class="mr-3">Nigeria</span>
+                            <i class="far fa-clock mr-1"></i>
+                            <span>22:15</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Card 5 -->
+                <div class="video-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer">
+                    <div class="relative pt-[56.25%] overflow-hidden">
+                        <img src="https://wmf.imgix.net/images/ac_ETH_Lalibela_JPEG_Hero_ETH_Lalibela-1.jpg?auto=format,compress&fit=max&w=4040" alt="Video thumbnail" class="absolute top-0 left-0 w-full h-full object-cover">
+                        <div class="video-overlay absolute inset-0 bg-black/40 flex items-center justify-center">
+                            <div class="bg-amber-600 hover:bg-amber-700 w-16 h-16 rounded-full flex items-center justify-center transition transform hover:scale-110">
+                                <i class="fas fa-play text-white text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Lalibela's Rock-Hewn Churches</h3>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <img src="https://flagcdn.com/w20/et.png" class="w-4 h-4 rounded-full mr-1">
+                            <span class="mr-3">Ethiopia</span>
+                            <i class="far fa-clock mr-1"></i>
+                            <span>14:08</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video Card 6 -->
+                <div class="video-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer">
+                    <div class="relative pt-[56.25%] overflow-hidden">
+                        <img src="https://serengetinationalparksafaris.com/wp-content/uploads/2022/06/maxresdefault-49.jpg" alt="Video thumbnail" class="absolute top-0 left-0 w-full h-full object-cover">
+                        <div class="video-overlay absolute inset-0 bg-black/40 flex items-center justify-center">
+                            <div class="bg-amber-600 hover:bg-amber-700 w-16 h-16 rounded-full flex items-center justify-center transition transform hover:scale-110">
+                                <i class="fas fa-play text-white text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Serengeti National Park Safari</h3>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <img src="https://flagcdn.com/w20/tz.png" class="w-4 h-4 rounded-full mr-1">
+                            <span class="mr-3">Tanzania</span>
+                            <i class="far fa-clock mr-1"></i>
+                            <span>20:45</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 slide-up delay-300">
+                <a href="https://www.youtube.com/" target="_blank" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-amber-600 hover:bg-amber-700 transition transform hover:scale-105">
+                    View All Videos
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-amber-900 mb-4">About Africa Ground</h2>
+                <div class="w-24 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative rounded-xl overflow-hidden shadow-xl slide-up delay-100">
+                    <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Our team" class="w-full h-auto">
+                </div>
+                <div class="slide-up delay-200">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Our Story</h3>
+                    <p class="text-gray-600 mb-4">Founded in 2025 by a group of passionate African explorers and filmmakers, Africa Ground was born from a desire to share the continent's incredible diversity with the world.</p>
+                    <p class="text-gray-600 mb-6">What started as a small YouTube channel has grown into a platform with millions of viewers worldwide, all eager to experience Africa's beauty through our lens.</p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="bg-amber-50 p-4 rounded-lg">
+                            <div class="text-amber-600 text-3xl mb-2">
+                                <i class="fas fa-globe-africa"></i>
+                            </div>
+                            <h4 class="font-semibold text-gray-800">15+ Countries</h4>
+                            <p class="text-sm text-gray-600">Explored and documented</p>
+                        </div>
+                        <div class="bg-amber-50 p-4 rounded-lg">
+                            <div class="text-amber-600 text-3xl mb-2">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <h4 class="font-semibold text-gray-800">200+ Videos</h4>
+                            <p class="text-sm text-gray-600">High-quality content</p>
+                        </div>
+                    </div>
+                    
+                    <a href="./meetourteam.html" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-amber-600 hover:bg-amber-700 transition transform hover:scale-105" target="_blank">
+                        Meet Our Team
+                        <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-amber-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-amber-900 mb-4">What Our Viewers Say</h2>
+                <div class="w-24 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition slide-up delay-100">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/16.jpg" alt="User" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Johnson Ayomide</h4>
+                            <div class="flex text-amber-500">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"Africa Ground's videos are breathtaking! They've inspired me to plan my first trip to Kenya. The way they capture the essence of each location is truly special."</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition slide-up delay-200">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/89.jpg" alt="User" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Michael Brown</h4>
+                            <div class="flex text-amber-500">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"As an educator, I use Africa Ground videos in my world history classes. The historical context they provide along with stunning visuals is invaluable."</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition slide-up delay-300">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/36.jpg" alt="User" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Amina Diallo</h4>
+                            <div class="flex text-amber-500">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"I'm originally from Senegal but live abroad. Watching Africa Ground videos makes me feel connected to home. They showcase our continent with such respect and beauty."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+       <section id="contact" class="py-20 bg-gray-50">
+       <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 slide-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-amber-900 mb-4">Get In Touch</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Have questions, suggestions, or partnership inquiries? We'd love to hear from you!</p>
+                <div class="w-24 h-1 bg-amber-600 mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="slide-up delay-100">
+                    <form class="space-y-6" id="contact-form">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+                            <select id="subject" name="subject" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500">
+                                <option>General Inquiry</option>
+                                <option>Partnership Opportunity</option>
+                                <option>Content Suggestion</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-amber-500 focus:border-amber-500"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full flex justify-center items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-amber-600 hover:bg-amber-700 transition transform hover:scale-105">
+                                Send Message
+                                <i class="fas fa-paper-plane ml-2"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                
+                <div class="slide-up delay-200">
+                    <div class="bg-white p-8 rounded-xl shadow-md h-full">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-600">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-medium text-gray-900">Our Office</h4>
+                                    <p class="text-sm text-gray-500">Lagos, Nigeria</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-600">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-medium text-gray-900">Email Us</h4>
+                                    <p class="text-sm text-gray-500">africangroundsconnect@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-600">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-medium text-gray-900">Call Us</h4>
+                                    <p class="text-sm text-gray-500">+254 700 123 456</p>
+                                </div>
+                            </div>
+                            
+                            <div class="pt-6">
+                                <h4 class="text-sm font-medium text-gray-900 mb-4">Follow Us</h4>
+                                <div class="flex space-x-4">
+                                    <a href="#" class="h-10 w-10 rounded-full bg-gray-100 hover:bg-amber-100 flex items-center justify-center text-gray-700 hover:text-amber-600 transition">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                    <a href="#" class="h-10 w-10 rounded-full bg-gray-100 hover:bg-amber-100 flex items-center justify-center text-gray-700 hover:text-amber-600 transition">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#" class="h-10 w-10 rounded-full bg-gray-100 hover:bg-amber-100 flex items-center justify-center text-gray-700 hover:text-amber-600 transition">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="h-10 w-10 rounded-full bg-gray-100 hover:bg-amber-100 flex items-center justify-center text-gray-700 hover:text-amber-600 transition">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="slide-up">
+                    <h3 class="text-lg font-semibold mb-4">Africa Ground</h3>
+                    <p class="text-gray-400 text-sm">Bringing Africa's beauty, history, and culture to the world through stunning video content.</p>
+                </div>
+                
+                <div class="slide-up delay-100">
+                    <h3 class="text-lg font-semibold mb-4">Explore</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition text-sm">Home</a></li>
+                        <li><a href="#videos" class="text-gray-400 hover:text-white transition text-sm">Videos</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition text-sm">About Us</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition text-sm">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="slide-up delay-200">
+                    <h3 class="text-lg font-semibold mb-4">Countries</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition text-sm">Nigeria</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition text-sm">Kenya</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition text-sm">South Africa</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition text-sm">Egypt</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition text-sm">Morocco</a></li>
+                    </ul>
+                </div>
+                
+                <div class="slide-up delay-300">
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="h-8 w-8 rounded-full bg-gray-800 hover:bg-amber-600 flex items-center justify-center text-white transition">
+                            <i class="fab fa-youtube text-sm"></i>
+                        </a>
+                        <a href="#" class="h-8 w-8 rounded-full bg-gray-800 hover:bg-amber-600 flex items-center justify-center text-white transition">
+                            <i class="fab fa-instagram text-sm"></i>
+                        </a>
+                        <a href="#" class="h-8 w-8 rounded-full bg-gray-800 hover:bg-amber-600 flex items-center justify-center text-white transition">
+                            <i class="fab fa-twitter text-sm"></i>
+                        </a>
+                        <a href="#" class="h-8 w-8 rounded-full bg-gray-800 hover:bg-amber-600 flex items-center justify-center text-white transition">
+                            <i class="fab fa-facebook-f text-sm"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 text-sm">africangroundsconnect@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center slide-up delay-400">
+                <p id="footer-year" class="text-gray-400 text-sm mb-4 md:mb-0">© <span id="year"></span> Africa Ground. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./script.js"></script>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+  (function(){
+    emailjs.init(EMAILJS_PUBLIC_KEY);
+  })();
+</script>
+ 
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, this)
+      .then(function(response) {
+        alert("✅ Email sent successfully!");
+        document.getElementById('contact-form').reset();
+      }, function(error) {
+        alert("❌ Failed to send email. Error: " + JSON.stringify(error));
+      });
+  });
+</script>
+</body>
+</html>
